@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0",
+    "name": "Bu1k Provisioning",
+    "description": "Nextcloud provisioning module",
+    "authors": [
+        {
+            "name": "Bu1k Cloud Team",
+            "url": "https://bu1k.com"
+        }
+    ],
+    "service": {
+        "name_key": "bu1k_config_option",
+    },
+    "module": {
+        "row": "Nextcloud Server",
+        "rows": "Nextcloud Servers",
+        "group": "Nextcloud Servers",
+        "row_key": "bu1k_config_value"
+    }
+}
