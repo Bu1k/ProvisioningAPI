@@ -1,4 +1,4 @@
-# Buik Provisioning
+# Bu1k Provisioning
 Place this app in **nextcloud/apps/**
 
 ## Building the app
