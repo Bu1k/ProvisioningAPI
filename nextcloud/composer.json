@@ -1,0 +1,15 @@
+{
+    "name": "Bu1k Provisioning",
+    "description": "Nextcloud Provisioning API and module for Blesta",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Bu1k Cloud Team"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
