@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>bu1kprovisioning</id>
+    <name>Bu1k Provisioning</name>
+    <summary>Nextcloud Provisioning API and module for Blesta</summary>
+    <description><![CDATA[Provides a provisioning api for use with the Blesta module.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="cloud@bu1k.com" homepage="https://bu1k.com">Bu1k Cloud Team</author>
+    <namespace>BuikProvisioning</namespace>
+    <category>integration</category>
+    <bugs>https://github.com/Bu1k/ProvisioningAPI/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Bu1k Provisioning</name>
+            <route>bu1kprovisioning.page.index</route>
+        </navigation>
+    </navigations>
+</info>
